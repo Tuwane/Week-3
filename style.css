@@ -73,8 +73,14 @@ padding			:	10px;
 background-color : tomato;
 
 }
-#main-home {
-margin-top		:	120px;
+#main {
+margin-top		:	119px;
+background		:	url('images/map-blue.png');
+background-repeat	:	repeat-y;
+}
+#content{
+padding-top		:	1px;
+padding-bottom		:	50px;
 }
 
 
