@@ -15,7 +15,11 @@ height		:	80px;
 background-image:	url('images/wood-bg.png');
 background-repeat:	repeat-x;
 }
-
+#header img{
+display		:block;
+margin		:auto;
+height		:70%;
+padding 	:15px;
 }
 /*=====================Top-Tabs==============*/
 #tabs-top{
@@ -90,13 +94,14 @@ padding-bottom		:	50px;
 
 a.info-box{
 text-decoration		:	none;
-background		:	rgba(255 ,255, 255, .8);
+background		:	rgba(255 ,255, 155, .8);
 width			:	90%;
 height			:	90px;
 display			:	block;
 margin			:	auto;
 margin-top		:	12px;
 padding			:	1px;
+border			:	3px solid gold;
 }			
 .info-box img{
 height			:	70px;
@@ -123,6 +128,7 @@ display			:	block;
 margin			:	auto;
 margin-top		:	12px;
 padding			:	10px;
+padding-bottom  :	50px;
 
 
 }
@@ -169,4 +175,11 @@ font-weight		:	600;
 margin			:	12px 0;
 padding			:	8px 0;
 }
-
+#add{
+	margin: auto;
+	color	:black;
+	padding :0%;
+	text-align: center;
+	font-size: large;
+	font-weight: 1000;
+}
